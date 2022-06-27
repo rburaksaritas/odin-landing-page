@@ -1,0 +1,218 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+.header-container,
+.header-top,
+.header-links,
+.header-bottom,
+.left,
+.contents,
+.information,
+.info-card-container,
+.info,
+.quote,
+.bottom,
+.modal,
+.modal-left{
+    display: flex;
+}
+
+body,
+.header-container,
+.left,
+.contents,
+.information,
+.info,
+.quote,
+.modal-left{
+    flex-direction: column;
+}
+
+body{
+    margin: 0px;
+    justify-content:space-between;
+}
+
+.header-container{
+    background-color: #1F2937;
+}
+
+/* navigation bar */
+.header-top{
+    color: white;
+    justify-content: space-between;
+    padding: 20px 120px;
+    align-items: center;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.header-links{
+    justify-content: space-between;
+    gap: 24px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* bottom header */
+.header-bottom{
+    color: white;
+    padding: 80px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom .left{
+    flex: 0.5 0.5 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:12px;
+    margin-right: 36px;
+    min-width: 200px;
+}
+
+.button-top{
+    background-color: #3882f6;
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.left .header-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-bottom .header-image{
+    height: auto;
+    max-width: 400px;
+    min-width: 250px;
+    text-align: center;
+    flex: 1 1 auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* contents */
+/* information */
+.information{
+    padding: 80px 120px;
+    justify-content: space-between;
+    gap: 36px;
+    align-items: center;
+
+}
+
+.information .information-header{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.information .info-card-container{
+    justify-content: space-between;
+    gap: 36px;
+    flex: auto;
+}
+.information .info-card-container .info{
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex: auto;
+}
+
+.information .info-card-container .info img{
+    height: auto;
+    max-width: 250px;
+    min-width: 150px;
+    flex: auto;
+    border-radius: 12px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* TODO: Fix Info Cards not shrinking */
+
+/* quote */
+.quote{
+    padding: 80px 120px 60px 120px;
+    background-color: rgb(243, 243, 243);
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.quote .quote-top{
+    display: block;
+    overflow: hidden;
+    font-size: 24px;
+    min-width: 150px;
+}
+
+.quote .quote-bottom{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* modal */
+.bottom{
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    background-color: #3882f6;
+    padding: 24px 48px;
+    margin: 80px 160px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.modal-left{
+    color: white;
+}
+
+.modal-header{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.button-bottom{
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 12px;
+    color: #3882f6;
+    font-weight: bolder;
+    font-size: 14px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* footer */
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 36px;
+}
