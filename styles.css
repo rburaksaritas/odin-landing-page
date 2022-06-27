@@ -131,6 +131,7 @@ a{
     justify-content: space-between;
     gap: 36px;
     flex: auto;
+    flex-wrap: wrap;
 }
 .information .info-card-container .info{
     justify-content: space-between;
